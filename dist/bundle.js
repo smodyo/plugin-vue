@@ -449,7 +449,7 @@ var $modyoSantander = {
     });
   });
 },
-    getCustomfields = function getCustomfields(n) {
+    getCustomFields = function getCustomFields(n) {
   return new Promise(function (e, a) {
     fetch(n + ".json").then(function (n) {
       return n.json();

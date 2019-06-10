@@ -13,7 +13,6 @@ gulp.task('minify-js', function (done) {
   gulp.src('src/**/*.js')
   .pipe(concat('bundle.js'))
   .pipe(minify({ext:'.js',noSource: true}))
-  .pipe(rev())
   .pipe(babel({"presets": ["@babel/preset-env"]}))
   .pipe(gulp.dest('dist/'))
   .pipe(notify("Tarea comprimir-js terminada!"));
@@ -25,7 +24,6 @@ gulp.task('minify-css', function (done) {
   gulp.src('src/*.css')
   .pipe(concat('index.css'))
   .pipe(cleanCSS({compatibility: 'ie8'}))
-  .pipe(rev())
   .pipe(gulp.dest('dist/'))
   .pipe(notify("Tarea comprimir-css terminada!"))
   done();

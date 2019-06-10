@@ -1,4 +1,4 @@
-const getCustomfields = function(url){
+const getCustomFields = function(url){
     return new Promise((resolve,reject) => {
         fetch(url+'.json')
         .then(e => e.json())
