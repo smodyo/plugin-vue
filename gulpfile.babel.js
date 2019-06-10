@@ -4,6 +4,7 @@ const concat = require('gulp-concat');
 const babel = require('gulp-babel');
 const cleanCSS = require('gulp-clean-css');
 const notify = require('gulp-notify');
+const minify = require('gulp-minify');
 
 gulp.task('minify-js', function (done) {
   gulp.src('src/**/*.js')
