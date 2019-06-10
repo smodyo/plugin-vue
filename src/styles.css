@@ -3,7 +3,7 @@
 #classic_header .sup-header{position:relative;z-index:99999}
 #classic_header .sup-header a{text-decoration:none;}
 #classic_header .sup-header .santander-logo{max-width: 75%}
-#classic_header .sup-header .santander-logo img{display:block;width:100%;height:auto;}¡
+#classic_header .sup-header .santander-logo img{display:block;width:100%;height:auto;}
 #classic_header .sup-header #navToggle{display:none;}
 #classic_header .sup-header .main-nav li.menu-item{display:inline-block;margin-left: -4px;position:relative;vertical-align:middle;}
 #classic_header .sup-header .main-nav li.menu-item > a{color: #fff;font-size: 14px;padding: 29px 12px;display: block;position: relative;transition:all .3s ease;text-decoration:none;}

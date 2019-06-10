@@ -22,7 +22,7 @@ gulp.task('minify-js', function (done) {
 // Tarea 2 llamada minify-css
 gulp.task('minify-css', function (done) {
   gulp.src('src/*.css')
-  .pipe(concat('index.css'))
+  .pipe(concat('bundle.css'))
   .pipe(cleanCSS({compatibility: 'ie8'}))
   .pipe(gulp.dest('dist/'))
   .pipe(notify("Tarea comprimir-css terminada!"))
